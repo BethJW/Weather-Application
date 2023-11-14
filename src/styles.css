@@ -1,3 +1,6 @@
+body {
+  background-color: azure;
+}
 .card {
   margin: 20px auto;
   padding: 20px;
@@ -64,9 +67,13 @@ h1 {
 .WeatherDescription {
   margin-top: 15px;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 13px;
   margin: 15px 10px;
+  line-height: 15px;
 }
 .signOff {
   text-align: center;
+}
+a {
+  color: black;
 }
