@@ -1,0 +1,72 @@
+.card {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 500px;
+  background-color: rgb(247, 237, 228);
+  box-shadow: 5px 5px 5px;
+}
+.timeDate {
+  text-align: center;
+  font-weight: bold;
+}
+hr {
+  color: black;
+  border: 1px solid black;
+}
+.search {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.search-btn {
+  width: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  border-width: 1px;
+}
+.search-bar {
+  width: 300px;
+  padding: 5px;
+  border-radius: 5px;
+  border-width: 1px;
+}
+h1 {
+  font-size: 35px;
+  text-align: center;
+  padding: 8px;
+  margin-top: -2px;
+}
+.row {
+  text-align: center;
+}
+.current-info {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 90px;
+}
+.unit {
+  font-size: 40px;
+  position: relative;
+  top: 10px;
+}
+.current-image {
+  border-radius: 5px;
+  width: 280px;
+  padding: 0;
+}
+
+.details {
+  margin-top: -10px;
+  font-size: 18px;
+  line-height: 25px;
+}
+.WeatherDescription {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 15px 10px;
+}
+.signOff {
+  text-align: center;
+}

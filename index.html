@@ -11,32 +11,42 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
     <div class="container">
-      <header>
-        <div class="timeDate">
-          It is <span class="date"> Sunday, 12th November </span> and the time
-          is
-          <span class="time"> 19:17</span>
+      <div class="card">
+        <header>
+          <div class="timeDate">
+            It is <span class="date"> Sunday, 12th November </span> and the time
+            is
+            <span class="time"> 19:17</span>
+          </div>
+          <hr />
+        </header>
+        <form class="search">
+          <input type="Submit" value="Search" class="search-btn" />
+          <input type="text" placeholder="Enter a city..." class="search-bar" />
+        </form>
+        <h1>Todays Weather in Crewe</h1>
+        <div class="row">
+          <div class="col-5">
+            <div class="current-info">
+              <span class="current">12</span>
+              <span class="unit">°C</span>
+            </div>
+            <div class="details">
+              Humidity: 70% <br />
+              Wind: 50mph
+            </div>
+            <div class="WeatherDescription">
+              Your weather today is mainly sunny with a few clouds.
+            </div>
+          </div>
+          <div class="col-7">
+            <img src="src/images/Sun.png" width="100px" class="current-image" />
+          </div>
         </div>
-      </header>
-      <form>
-        <input type="Submit" value="Search" />
-        <input type="text" placeholder="Enter a city..." />
-      </form>
-      <h1>Todays Weather in Crewe</h1>
-      <div class="current">
-        12
-        <span class="unit">°C</span>
-      </div>
-      <img src="src/images/Sun.png" width="100px" />
-      <div class="details">
-        Humidity:70% <br />
-        Wind:50mph
-      </div>
-      <div class="WeatherDescription">
-        Your weather today is mainly sunny with a few clouds.
       </div>
       <footer>
         <div class="signOff">
