@@ -55,7 +55,8 @@ h1 {
 }
 .current-image {
   border-radius: 5px;
-  width: 280px;
+  width: 180px;
+  height: 180px;
   padding: 0;
 }
 

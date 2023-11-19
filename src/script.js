@@ -14,6 +14,8 @@ function refreshWeather(response) {
   let date = new Date(response.data.time * 1000);
   let time = document.querySelector("#currentTime");
   time.innerHTML = formatDate(date);
+  let icon = document.querySelector("#icon");
+  icon.innerHTML = `<img src="${response.data.condition.icon_url}"  class="current-image"/>`;
 }
 function formatDate(date) {
   let minutes = date.getMinutes();
