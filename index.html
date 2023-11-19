@@ -18,11 +18,7 @@
     <div class="container">
       <div class="card">
         <header>
-          <div class="timeDate">
-            It is <span class="date"> Sunday, 12th November </span> and the time
-            is
-            <span class="time"> 19:17</span>
-          </div>
+          <div class="timeDate" id="currentTime"></div>
           <hr />
         </header>
         <form class="search" id="search">
@@ -42,12 +38,10 @@
               <span class="unit" id="currentUnit">°C</span>
             </div>
             <div class="details">
-              Humidity: 70% <br />
-              Wind: 50mph
+              <div id="humidity">Humidity:</div>
+              <div id="wind">Wind:</div>
             </div>
-            <div class="WeatherDescription">
-              Your weather today is mainly sunny with a few clouds.
-            </div>
+            <div class="WeatherDescription" id="description"></div>
           </div>
           <div class="col-7">
             <img src="src/images/Sun.png" width="100px" class="current-image" />
