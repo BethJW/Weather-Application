@@ -26,7 +26,13 @@ hr {
   padding: 5px;
   border-radius: 5px;
   border-width: 1px;
+  background-color: rgb(226, 204, 252);
+  cursor: pointer;
 }
+.search-btn:hover {
+  background-color: rgb(213, 183, 248);
+}
+
 .search-bar {
   width: 300px;
   padding: 5px;
