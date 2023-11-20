@@ -64,7 +64,28 @@ function submitSearch(event) {
   let searchInput = document.querySelector("#search-bar");
   search(searchInput.value);
 }
+
+function displayForecast() {
+  let days = ["Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+  let forecastHtml = "";
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `<div class="col-2">
+            <div class="forecast-date">${day}</div>
+            <img src="src/images/Sun.png" width="50px" />
+            <div class="forecast-temp">
+              <span class="max">10</span> <span class="min">12</span>
+            </div>
+          </div>
+`;
+  });
+  let forecastElement = document.querySelector("#row");
+  forecastElement.innerHTML = forecastHtml;
+}
+
 let searchForm = document.querySelector("#search");
 searchForm.addEventListener("submit", submitSearch);
 
 search("Crewe");
+displayForecast();
