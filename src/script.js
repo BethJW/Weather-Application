@@ -3,7 +3,7 @@ function refreshWeather(response) {
   let currentTemp = document.querySelector("#currentTemp");
   currentTemp.innerHTML = Math.round(temperature);
   let h1 = document.querySelector("h1");
-  h1.innerHTML = `Todays' weather in ${response.data.city}`;
+  h1.innerHTML = `Today's weather in ${response.data.city}`;
   let WeatherDescription = document.querySelector("#description");
   WeatherDescription.innerHTML = `Today you will have ${response.data.condition.description}`;
   let humidity = document.querySelector("#humidity");
